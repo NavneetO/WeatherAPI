@@ -1,0 +1,33 @@
+ body{
+     text-align: center;
+ }
+ #heading{
+    font-size: 4rem;
+    
+}
+.card{
+    margin-left: 25%;
+    font-size: 4rem;
+    background-color: rgba(236, 125, 227, 0.459);
+    width: 45%;
+    border-radius: 15%;
+    
+}
+
+.logo{
+    width:100px;
+    height:100px;
+}
+input{
+    margin-top: 5%;
+    height: 4rem;
+    font-size: 2.2rem;
+}
+h3{
+    font-size: 3rem;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.7rem;
+}

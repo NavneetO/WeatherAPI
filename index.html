@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <span id="heading">Weather API</span>
+        <span><img src="https://i.pinimg.com/originals/e8/1d/8d/e81d8d8032101ffab2ddc3fd1e2d8ab1.gif" class="logo" ></span>
+        <h3>Enter any place name to know its weather info.</h3>
+        <input type="text" value="" id="placeInput" placeholder="Enter a place">
+        <button class="btn " onclick=getPlace() >Submit</button>
+        <br><br>
+        <div class="card">
+            <div>
+                <span>Name of Place :</span>
+                <span id="name"></span>
+
+            </div>
+            <div>
+                <span>Country:</span>
+                <span id="country"></span>
+                
+            </div>
+            <div>
+                <span>Lattitude:</span>
+                <span id="lat"></span>
+                
+            </div>
+            <div>
+                <span>Longitude:</span>
+                <span id="lon"></span>
+                
+            </div>
+            <div>
+                <span>Temprature:</span>
+                <span id="temp"></span>
+                
+            </div>
+            <div>
+                <span>WindSpeed:</span>
+                <span id="speed"></span>
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
