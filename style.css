@@ -1,6 +1,13 @@
  body{
      text-align: center;
+     background-image: url("popp.jpg");
+     width: 99%;
+     height: 98%;
+     background-position: center;
+     background-repeat: no-repeat;
+        
  }
+
  #heading{
     font-size: 4rem;
     
@@ -11,6 +18,7 @@
     background-color: rgba(236, 125, 227, 0.459);
     width: 45%;
     border-radius: 15%;
+    backdrop-filter: blur(40px) rgba(153, 41, 118, 0.74);
     
 }
 
